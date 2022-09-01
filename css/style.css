@@ -1,7 +1,7 @@
 html,
 body {
-    height: auto;
-   
+  background-color: firebrick;
+ height: 100%;
 }
 
 .container {
@@ -16,7 +16,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgb(236, 20, 20);
+  background: rgb(0,0,0);
   background: linear-gradient(315deg, rgba(0,0,0,1) 80%, rgba(120,120,120,.75) 98%); 
   width: 500px;
   height: 500px;
@@ -63,7 +63,7 @@ body {
 }
 
 #message {
-  color: white;
+  color: rgb(226, 14, 14);
   font-size: 18px;
   text-align: center;
   margin: 60px auto;
