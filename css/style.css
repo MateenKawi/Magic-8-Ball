@@ -1,8 +1,9 @@
-html,main,
+html,
 body {
-  
+background-color: firebrick;  
  height: 100%;
 }
+
 
 .container {
   display: flex;
@@ -10,6 +11,7 @@ body {
   justify-content: center;
   height: 100%;
   width: 100%;
+  
 }
 
 .ball {
@@ -63,7 +65,7 @@ body {
 }
 
 #message {
-  color: rgb(226, 14, 14);
+  color: rgb(252, 124, 124);
   font-size: 18px;
   text-align: center;
   margin: 60px auto;
